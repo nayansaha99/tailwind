@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script>
+        tailwind.config = {
+          theme: {
+            fontSize: {
+      sm: '0.7rem',
+      base: '1rem',
+      xl: '1.25rem',
+      font: '0.8rem',
+      meter: '0.8rem',
+      '2xl': '1.563rem',
+      '3xl': '1.953rem',
+      '4xl': '2.441rem',
+      '5xl': '3.052rem',
+    },
+
+            extend: {
+              colors: {
+                text: '#c50fc8',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <div class="card w-96 bg-base-100 shadow-xl">
+     
+        <div class="card-body">
+                <h1 class="text-base text-text font-serif">Exchange</h1>
+                <h2 class="text-sm text-text">Trade tokens in an instant</h2>
+
+            <div class=" flex justify-end mr-1">
+                <img class=" -mt-11 h-6 w-6 " src="images/setting.svg" alt="">
+                <img class="-mt-11 h-6 w-6 ml-9" src="images/browser-history.png" alt="">
+              </div>
+            <div class="divider"></div>
+            <div class="flex flex-col w-full">
+                <div class="grid h-20 card bg-fuchsia-100 rounded-box">
+                    <h6 class="text-sm font-serif text-text ml-3 mt-3">From</h6>
+                    <p class="text-font ml-3 mt-2 text-text">0.0</p>
+                    <button class=" ml-52 -mt-11"><h1 class="text-meter mb-7 -ml-5 font-serif text-text ">PLS</h1><img class="-mt-12 h-5 w-5 ml-2" src="images/meter.png" alt=""><img class=" flex h-3 w-3 ml-16 -mt-3.5 " src="images/arrow.png" alt=""></button>
+                    
+                </div> 
+
+                <div class="flex justify-center items-center mt-6">
+                    <img class="h-8" src="images/icons8-arrow-down.png" alt="">
+                  </div>
+                <div class="grid top-5 h-20 card bg-fuchsia-100 rounded-box">
+                  <h6 class="text-sm  ml-3 mt-3 font-serif text-text ">To</h6>
+                    <p class="text-font ml-3 mt-2 font-serif text-text">0.0</p>
+                    <button class=" ml-56 -mt-11"><h1 class="text-meter -ml-32 font-serif text-text">Select a currency</Select></svg></h1><img class=" flex h-3 w-3 ml-12 -mt-3.5" src="images/arrow.png" alt=""></button>
+
+                </div>
+              </div>
+              <div class="grid top-7 bottom-10 h-20 card  place-items-center"><button type="button" class="btn btn-block text-white bg-fuchsia-600">Unlock Wallet</button></div>
+              
+          </div>
+          
+        </div>
+      </div>
+   
+
+</body>
+</html>
